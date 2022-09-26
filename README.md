@@ -1,8 +1,9 @@
 # Distributed-Systems
 My colleague and I followed at Politecnico of Milano the course "Distributed Systems". We made the project called "Transactional key-value store" that consisted in 
-implementementing a distributed transactional key-value store.
+implementing a distributed transactional key-value store.
 
 Requirements:
+
   Clients submit transactions. Each transaction is a list of read and write operations:
     ● write(k, v) inserts/updates value v for key k
     ● read(k) returns the value associated to key k (or null if the key is not present)
