@@ -1,0 +1,397 @@
+version 3
+run General-0-20220624-15:31:39-10872
+attr configname General
+attr datetime 20220624-15:31:39
+attr datetimef 20220624-153139
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network progetto
+attr processid 10872
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network progetto
+config sim-time-limit 21600s
+config **.n 4
+config **.m 2
+config **.k 5
+config **.r 2
+config **.t 2
+config progetto.nodes[*].delay "uniform(0.01s, 0.02s)"
+config **.reqPeriod "uniform(0s, 1s)"
+
+par progetto.nodec[0].gateC$o.channel typename "\"MyChannel\""
+par progetto.nodec[0].gateC$o.channel disabled false
+attr mutable ""
+par progetto.nodec[0].gateC$o.channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodec[0].gateC$o.channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodec[0].gateC$o.channel ber 0
+attr mutable ""
+par progetto.nodec[0].gateC$o.channel per 0
+attr mutable ""
+par progetto.noded.gateC$o[0].channel typename "\"MyChannel\""
+par progetto.noded.gateC$o[0].channel disabled false
+attr mutable ""
+par progetto.noded.gateC$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.noded.gateC$o[0].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.noded.gateC$o[0].channel ber 0
+attr mutable ""
+par progetto.noded.gateC$o[0].channel per 0
+attr mutable ""
+par progetto.nodec[1].gateC$o.channel typename "\"MyChannel\""
+par progetto.nodec[1].gateC$o.channel disabled false
+attr mutable ""
+par progetto.nodec[1].gateC$o.channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodec[1].gateC$o.channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodec[1].gateC$o.channel ber 0
+attr mutable ""
+par progetto.nodec[1].gateC$o.channel per 0
+attr mutable ""
+par progetto.noded.gateC$o[1].channel typename "\"MyChannel\""
+par progetto.noded.gateC$o[1].channel disabled false
+attr mutable ""
+par progetto.noded.gateC$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.noded.gateC$o[1].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.noded.gateC$o[1].channel ber 0
+attr mutable ""
+par progetto.noded.gateC$o[1].channel per 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[0].channel typename "\"MyChannel\""
+par progetto.nodes[0].gateS$o[0].channel disabled false
+attr mutable ""
+par progetto.nodes[0].gateS$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[0].gateS$o[0].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[0].gateS$o[0].channel ber 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[0].channel per 0
+attr mutable ""
+par progetto.noded.gateS$o[0].channel typename "\"MyChannel\""
+par progetto.noded.gateS$o[0].channel disabled false
+attr mutable ""
+par progetto.noded.gateS$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.noded.gateS$o[0].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.noded.gateS$o[0].channel ber 0
+attr mutable ""
+par progetto.noded.gateS$o[0].channel per 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[1].channel typename "\"MyChannel\""
+par progetto.nodes[1].gateS$o[1].channel disabled false
+attr mutable ""
+par progetto.nodes[1].gateS$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[1].gateS$o[1].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[1].gateS$o[1].channel ber 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[1].channel per 0
+attr mutable ""
+par progetto.noded.gateS$o[1].channel typename "\"MyChannel\""
+par progetto.noded.gateS$o[1].channel disabled false
+attr mutable ""
+par progetto.noded.gateS$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.noded.gateS$o[1].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.noded.gateS$o[1].channel ber 0
+attr mutable ""
+par progetto.noded.gateS$o[1].channel per 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[2].channel typename "\"MyChannel\""
+par progetto.nodes[2].gateS$o[2].channel disabled false
+attr mutable ""
+par progetto.nodes[2].gateS$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[2].gateS$o[2].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[2].gateS$o[2].channel ber 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[2].channel per 0
+attr mutable ""
+par progetto.noded.gateS$o[2].channel typename "\"MyChannel\""
+par progetto.noded.gateS$o[2].channel disabled false
+attr mutable ""
+par progetto.noded.gateS$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.noded.gateS$o[2].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.noded.gateS$o[2].channel ber 0
+attr mutable ""
+par progetto.noded.gateS$o[2].channel per 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[3].channel typename "\"MyChannel\""
+par progetto.nodes[3].gateS$o[3].channel disabled false
+attr mutable ""
+par progetto.nodes[3].gateS$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[3].gateS$o[3].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[3].gateS$o[3].channel ber 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[3].channel per 0
+attr mutable ""
+par progetto.noded.gateS$o[3].channel typename "\"MyChannel\""
+par progetto.noded.gateS$o[3].channel disabled false
+attr mutable ""
+par progetto.noded.gateS$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.noded.gateS$o[3].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.noded.gateS$o[3].channel ber 0
+attr mutable ""
+par progetto.noded.gateS$o[3].channel per 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[1].channel typename "\"MyChannel\""
+par progetto.nodes[0].gateS$o[1].channel disabled false
+attr mutable ""
+par progetto.nodes[0].gateS$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[0].gateS$o[1].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[0].gateS$o[1].channel ber 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[1].channel per 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[0].channel typename "\"MyChannel\""
+par progetto.nodes[1].gateS$o[0].channel disabled false
+attr mutable ""
+par progetto.nodes[1].gateS$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[1].gateS$o[0].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[1].gateS$o[0].channel ber 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[0].channel per 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[2].channel typename "\"MyChannel\""
+par progetto.nodes[0].gateS$o[2].channel disabled false
+attr mutable ""
+par progetto.nodes[0].gateS$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[0].gateS$o[2].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[0].gateS$o[2].channel ber 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[2].channel per 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[0].channel typename "\"MyChannel\""
+par progetto.nodes[2].gateS$o[0].channel disabled false
+attr mutable ""
+par progetto.nodes[2].gateS$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[2].gateS$o[0].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[2].gateS$o[0].channel ber 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[0].channel per 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[3].channel typename "\"MyChannel\""
+par progetto.nodes[0].gateS$o[3].channel disabled false
+attr mutable ""
+par progetto.nodes[0].gateS$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[0].gateS$o[3].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[0].gateS$o[3].channel ber 0
+attr mutable ""
+par progetto.nodes[0].gateS$o[3].channel per 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[0].channel typename "\"MyChannel\""
+par progetto.nodes[3].gateS$o[0].channel disabled false
+attr mutable ""
+par progetto.nodes[3].gateS$o[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[3].gateS$o[0].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[3].gateS$o[0].channel ber 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[0].channel per 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[2].channel typename "\"MyChannel\""
+par progetto.nodes[1].gateS$o[2].channel disabled false
+attr mutable ""
+par progetto.nodes[1].gateS$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[1].gateS$o[2].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[1].gateS$o[2].channel ber 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[2].channel per 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[1].channel typename "\"MyChannel\""
+par progetto.nodes[2].gateS$o[1].channel disabled false
+attr mutable ""
+par progetto.nodes[2].gateS$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[2].gateS$o[1].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[2].gateS$o[1].channel ber 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[1].channel per 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[3].channel typename "\"MyChannel\""
+par progetto.nodes[1].gateS$o[3].channel disabled false
+attr mutable ""
+par progetto.nodes[1].gateS$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[1].gateS$o[3].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[1].gateS$o[3].channel ber 0
+attr mutable ""
+par progetto.nodes[1].gateS$o[3].channel per 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[1].channel typename "\"MyChannel\""
+par progetto.nodes[3].gateS$o[1].channel disabled false
+attr mutable ""
+par progetto.nodes[3].gateS$o[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[3].gateS$o[1].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[3].gateS$o[1].channel ber 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[1].channel per 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[3].channel typename "\"MyChannel\""
+par progetto.nodes[2].gateS$o[3].channel disabled false
+attr mutable ""
+par progetto.nodes[2].gateS$o[3].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[2].gateS$o[3].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[2].gateS$o[3].channel ber 0
+attr mutable ""
+par progetto.nodes[2].gateS$o[3].channel per 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[2].channel typename "\"MyChannel\""
+par progetto.nodes[3].gateS$o[2].channel disabled false
+attr mutable ""
+par progetto.nodes[3].gateS$o[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par progetto.nodes[3].gateS$o[2].channel datarate 1.024e+06bps
+attr mutable ""
+attr unit bps
+par progetto.nodes[3].gateS$o[2].channel ber 0
+attr mutable ""
+par progetto.nodes[3].gateS$o[2].channel per 0
+attr mutable ""
+par progetto.nodes[0] typename "\"ServerNode\""
+par progetto.nodes[0] k 5
+par progetto.nodes[0] n 4
+par progetto.nodes[0] m 2
+par progetto.nodes[0] r 2
+par progetto.nodes[0] t 2
+par progetto.nodes[0] delay "uniform(0.01s, 0.02s)"
+attr unit s
+par progetto.nodes[1] typename "\"ServerNode\""
+par progetto.nodes[1] k 5
+par progetto.nodes[1] n 4
+par progetto.nodes[1] m 2
+par progetto.nodes[1] r 2
+par progetto.nodes[1] t 2
+par progetto.nodes[1] delay "uniform(0.01s, 0.02s)"
+attr unit s
+par progetto.nodes[2] typename "\"ServerNode\""
+par progetto.nodes[2] k 5
+par progetto.nodes[2] n 4
+par progetto.nodes[2] m 2
+par progetto.nodes[2] r 2
+par progetto.nodes[2] t 2
+par progetto.nodes[2] delay "uniform(0.01s, 0.02s)"
+attr unit s
+par progetto.nodes[3] typename "\"ServerNode\""
+par progetto.nodes[3] k 5
+par progetto.nodes[3] n 4
+par progetto.nodes[3] m 2
+par progetto.nodes[3] r 2
+par progetto.nodes[3] t 2
+par progetto.nodes[3] delay "uniform(0.01s, 0.02s)"
+attr unit s
+par progetto.noded typename "\"Dispatcher\""
+par progetto.noded n 4
+par progetto.noded m 2
+par progetto.noded delay "uniform(0.1s, 0.2s)"
+attr unit s
+par progetto.nodec[0] typename "\"Client\""
+par progetto.nodec[0] k 5
+par progetto.nodec[0] n 4
+par progetto.nodec[0] m 2
+par progetto.nodec[0] v 19
+par progetto.nodec[0] t 2
+par progetto.nodec[0] reqPeriod "uniform(0s, 1s)"
+attr unit s
+par progetto.nodec[1] typename "\"Client\""
+par progetto.nodec[1] k 5
+par progetto.nodec[1] n 4
+par progetto.nodec[1] m 2
+par progetto.nodec[1] v 19
+par progetto.nodec[1] t 2
+par progetto.nodec[1] reqPeriod "uniform(0s, 1s)"
+attr unit s
+par progetto typename "\"progetto\""
+par progetto n 4
+par progetto m 2
+
